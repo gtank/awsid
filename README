@@ -1,0 +1,8 @@
+This is a simple tool that will download an AWS Instance Identity Document and
+validate its signature using an out-of-band pinned certificate before printing
+the contents. If there is any problem with validating the document, it will
+instead exit with an error.
+
+For further details, see the AWS docs:
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-identity-documents.html
